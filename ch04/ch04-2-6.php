@@ -1,3 +1,7 @@
+# SID: C111181137<BR>
+# Name: 蔣沛恆<BR>
+EX04
+<HR>
 <?php
 define("PI", 3.1415926);  // 常數宣告
 define("AREA", "面積");

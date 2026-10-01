@@ -1,3 +1,7 @@
+# SID: C111181137<BR>
+# Name: 蔣沛恆<BR>
+EX05
+<HR>
 <?php
 function square(float|int $v): int|float {
     return $v ** 2;
