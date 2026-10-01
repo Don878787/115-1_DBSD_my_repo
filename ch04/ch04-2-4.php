@@ -1,3 +1,4 @@
+<?php
 // 指定變數值
     $name = "myName"; // 將字串 "myName" 賦值給變數 $name
 
@@ -14,3 +15,4 @@
     echo "變數$$name = ${$name}<br/>"; // 顯示變數 $myName 的值，使用變數變數語法
     echo "變數\$username = $username<br/>"; // 顯示變數 $username 的值
     echo "變數\$username1 = $username1<br/>"; // 顯示變數 $username1 的值
+?>

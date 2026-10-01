@@ -1,3 +1,4 @@
+<?php
 $name = "陳會安";  // 指定變數值
     $username1 = "陳允傑";
     $username2 = "江小魚";
@@ -16,3 +17,4 @@ $name = "陳會安";  // 指定變數值
     print "Hi! $name $username1 $username2<br/>";
     print ("Hi! " . $name . " " . $username1 . "<br/>");
     print ("Hi! $name<br/>");
+?>
