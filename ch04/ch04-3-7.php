@@ -1,13 +1,12 @@
 # SID: C111181137<BR>
 # Name: 蔣沛恆<BR>
-EX06
+EX05
 <HR>
 <?php
-$a = 10;  $b = 10;  // 指定變數值
+function square(float|int $v): int|float {
+    return $v ** 2;
+}
+// 函數呼叫
+echo "square(2) = ".square(2)."<br/>";
+echo "square(2.5) = ".square(2.5)."<br/>";
 ?>
-$a = <?php echo $a ?><br/>
-$b = <?php echo $b ?><br/>
-在後遞增運算: $a++    = <?php echo $a++ ?><br/>
-運算後的結果: $a = <?php echo $a ?><br/>
-在前遞減運算: --$b = <?php echo --$b ?><br/>
-運算後的結果: $b = <?php echo $b ?><br/>
