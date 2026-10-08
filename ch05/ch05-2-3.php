@@ -1,3 +1,7 @@
+# SID: C111181137<BR>
+# Name: 蔣沛恆<BR>
+EX01
+<HR>
 <?php
 $grade= 85;
 if ($grade >= 80) {

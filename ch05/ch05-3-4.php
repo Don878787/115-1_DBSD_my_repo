@@ -1,3 +1,7 @@
+# SID: C111181137<BR>
+# Name: 蔣沛恆<BR>
+EX04
+<HR>
 <?php
 $total = 0;
 for ($i = 1; $i <= 15; $i++) {
