@@ -3,7 +3,7 @@ function printHeader()
 {
     echo "<h3>SID:C111181137</h3>";
     echo "<h3>Name:蔣沛恆</h3>";
-    echo "EX05";
+    echo "<h3>EX05</h3>";
 }
 printHeader();
 function callFunc1(Closure $closure)

@@ -3,7 +3,7 @@ function printHeader()
 {
     echo "<h3>SID:C111181137</h3>";
     echo "<h3>Name:蔣沛恆</h3>";
-    echo "EX03";
+    echo "<h3>EX03</h3>";
 }
 function volume($length, $width = 10, $height = 15)
 {
