@@ -8,9 +8,11 @@ function printHeader()
 function printFooter()
 {
     echo "<hr><BR>";
-    echo "<hr>&copy C111181137-蔣沛恆. All Right Reserved </hr>";
+    echo "&copy C111181137-蔣沛恆. All Right Reserved.";
 }
 printHeader();
+
 print "<P>This is a simple PHP page.</P>";
+
 printFooter();
 ?>
