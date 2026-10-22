@@ -1,6 +1,6 @@
 <?php
 include ("about_me.php");
-echo"EX02<br/>";
+echo"EX03<br/>";
 $arr = array(
     "color" => "red",
     "size" => "medium",

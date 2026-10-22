@@ -8,7 +8,13 @@ echo "PATH". $path ."";
 ?>
 <table border="1">
     <tr>
-        <td>IP Address</td>
-        <td>PATH</td>
+        <td>Key</td>
+        <td>Value</td>
     </tr>
+    <?php
+    foreach ($_SERVER as $key => $value) {
+        echo "<tr><td>". $key ."</td>";
+        echo "<td>". $value ."</td></tr>";
+    }
+    ?>
 </table>
