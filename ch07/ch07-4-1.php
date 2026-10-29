@@ -1,6 +1,6 @@
 <?php
 include ("about_me.php");
-echo"CH07-EX01<br/>";
+echo"W08-EX01<br/>";
 $str1 = "PHP and MySQL Web Programming"; // 字串變數
 $str2 = " PHP與MySQL網頁設計範例教本 ";
     
