@@ -1,4 +1,5 @@
 <?php
+require("about_me.php");
 echo "W10-EX02" . "<br/>";
 function each(&$array)
 {

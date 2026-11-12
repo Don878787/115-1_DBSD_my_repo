@@ -6,7 +6,7 @@ session_start();  // 啟用交談期
 if (isset($_POST["Item"])) {
     $_SESSION["Quantity"] = $_POST["Quantity"];
     $id = $_POST["Item"];
-
+    $_SESSION["ID"] = $id;
     switch (strtoupper($id)) {
         case "S001":
             $_SESSION["Name"] = "10吋平板電腦";
